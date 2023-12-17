@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="./styles/global.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/main.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="#home__page">
+        <span class="header__logo--link"> Travel Site</span>
+      </a>
+      <nav class="header__navigation">
+        <ul>
+          <li><a class="header__link" href="#home__page">Home</a></li>
+          <li><a class="header__link" href="./pages/hawaii.html">Hawaii</a></li>
+          <li>
+            <a class="header__link" href="./pages/iceland.html">Iceland</a>
+          </li>
+          <li><a class="header__link" href="./pages/greece.html">Greece</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="hero__section" id="home__page">
+      <div class="hero__wrapper">
+        <div class="hero__description">
+          <h1 class="hero__heading">
+            Travelling comes with endless discoveries
+          </h1>
+          <p class="hero__text">
+            Don’t let your dreams be just dreams. Experience the world by
+            booking a vacation with us now.
+          </p>
+          <button class="hero__button">Get started</button>
+        </div>
+        <img
+          class="hero__image"
+          src="./Assets/Images/hero.png"
+          alt="airplane flying from a destination"
+        />
+      </div>
+    </main>
+    <section class="cards__section">
+      <h2 class="secondary__heading">Recommendations</h2>
+      <div class="card__wrapper">
+        <article class="card__hawaii card__details">
+          <a href="./pages/hawaii.html"><span class="card__link"></span></a>
+          <h3 class="card__heading">Hawaii</h3>
+        </article>
+        <article class="card__iceland card__details">
+          <a href="./pages/iceland.html"><span class="card__link"></span></a>
+          <h3 class="card__heading">Iceland</h3>
+        </article>
+        <article class="card__greece card__details">
+          <a href="./pages/greece.html"><span class="card__link"></span></a>
+          <h3 class="card__heading">Greece</h3>
+        </article>
+      </div>
+    </section>
+    <footer class="footer__section">
+      <div class="footer__wrapper">
+        <div class="contact__wrapper">
+          <h2 class="footer__heading secondary__heading">Contact</h2>
+          <p class="contact__text">email</p>
+          <p>
+            <a class="contact__text--link" href="mailto:info@travelsite.com">
+              info@travelsite.com
+            </a>
+          </p>
+        </div>
+        <div class="hours__wrapper">
+          <h2 class="footer__heading secondary__heading">Hours</h2>
+          <div class="hour__container">
+            <div class="hour__details">
+              <p class="hour__days">Monday - friday</p>
+              <p class="hour__time">9:00 PM - 5:00 PM</p>
+            </div>
+            <div class="hour__details">
+              <p class="hour__days">Saturday</p>
+              <p class="hour__time">10:00 PM - 4:00 PM</p>
+            </div>
+            <div class="hour__details">
+              <p class="hour__days">Sunday</p>
+              <p class="hour__time">Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social__wrapper">
+          <h2 class="footer__heading secondary__heading">Social</h2>
+
+          <ul class="social__links">
+            <li>
+              <a href="https://www.instagram.com/" class="social__link"
+                ><img
+                  src="./Assets/Icons/icon-instagram.png"
+                  alt="instagram Logo"
+              /></a>
+            </li>
+            <li>
+              <a class="social__link" href="https://www.facebook.com/"
+                ><img
+                  src="./Assets/Icons/icon-facebook.png"
+                  alt="facebook Logo"
+              /></a>
+            </li>
+            <li>
+              <a class="social__link" href="https://twitter.com/"
+                ><img
+                  src="./Assets/Icons/icon-twitter.png"
+                  alt="twitter Logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/* colors
+Primary color:  #335576; #DB7A4E;
+background color: #fff; #FEFAF5;  
+
+Font Colors
+Primary color:  #335576;
+Highlight color: #DB7A4E; 
+
+*/
+
+/* Section = hero */
+.hero__section {
+  background-color: #fefaf5;
+}
+.hero__wrapper {
+  width: 86%;
+  display: flex;
+  margin: 0 auto;
+  padding: 4rem 0;
+  justify-content: space-between;
+}
+
+.hero__description {
+  display: flex;
+  flex-direction: column;
+  width: 38vw;
+  gap: 2.5rem;
+  color: #335576;
+  padding: 3.2rem 0;
+  text-align: left;
+}
+.hero__heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  /* letter-spacing: 1.1px; */
+  text-transform: capitalize;
+}
+.hero__text {
+  font-size: 0.9rem;
+}
+.hero__button {
+  padding: 0.6rem 2rem;
+  border-radius: 50px;
+  width: 33%;
+  font-size: 1.1rem;
+  background-color: #db7a4e;
+  border: 0px;
+  color: #fff;
+}
+.hero__image {
+  width: 35vw;
+}
+
+/* Section = cards */
+
+.cards__section {
+  width: 86%;
+  margin: 0 auto;
+  padding-bottom: 5.5rem;
+}
+.card__heading {
+  font-size: 1.4rem;
+  position: relative;
+  top: 22rem;
+  left: 10.5rem;
+}
+.card__hawaii {
+  background-image: url(../Assets/Images/hawaii.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.card__iceland {
+  background-image: url(../Assets/Images/iceland.jpg);
+  background-size: cover;
+  position: relative;
+}
+.card__greece {
+  background-image: url(../Assets/Images/greece.jpg);
+  background-size: cover;
+  position: relative;
+}
+.card__link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}

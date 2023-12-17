@@ -1,0 +1,159 @@
+/*# sourceMappingURL=style.css.map */
+/* colors
+Primary color:  #335576; #DB7A4E;
+background color: #fff; #FEFAF5;  
+
+Font Colors
+Primary color:  #335576;
+Highlight color: #DB7A4E; 
+
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+/* Section = header */
+.header {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+.header__logo {
+  text-decoration: none;
+}
+.header__logo--link {
+  color: #335576;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.header__navigation ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-between;
+  gap: 1.3rem;
+}
+
+.header__link:link,
+.header__link:visited,
+.header__link:hover {
+  color: #335576;
+  color: #000000;
+  text-decoration: none;
+}
+.header__link:active {
+  color: #335576;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: solid 2px #db7a4e;
+  padding: 5px 0;
+}
+
+/* Section = cards */
+
+.cards__section {
+  width: 86%;
+  margin: 0 auto;
+  padding-bottom: 5.5rem;
+}
+.card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+  margin: 0 auto;
+}
+.secondary__heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #335576;
+  padding: 3rem 0 2rem 0;
+}
+.card__details {
+  color: #fff;
+  width: 17.6rem;
+  height: 25rem;
+  box-shadow: 0px 4px 4px #00000033;
+  border-radius: 6px;
+}
+/* Section = footer */
+.footer__section {
+  color: #335576;
+  background-color: #fefaf5;
+}
+.footer__wrapper {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.contact__text {
+  color: #db7a4e;
+  text-transform: uppercase;
+  font-size: 0.67rem;
+  padding-bottom: 0.5rem;
+}
+.contact__text--link {
+  text-decoration: none;
+  color: #335576;
+  font-size: 0.9rem;
+}
+
+.hours__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hour__container {
+  display: flex;
+  gap: 2rem;
+}
+
+.hour__days {
+  text-transform: uppercase;
+  color: #db7a4e;
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+.hour__time {
+  font-size: 0.9rem;
+}
+
+.social__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social__links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.social__link {
+  text-decoration: none;
+}
+.social__link img {
+  height: 2rem;
+}
