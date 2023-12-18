@@ -67,6 +67,13 @@ body {
   border-bottom: solid 3px #db7a4e;
   padding: 5px 0;
 }
+.active{
+  color: #335576;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: solid 3px #db7a4e;
+  padding: 5px 0;
+}}
 
 /* Section = cards */
 
@@ -92,11 +99,10 @@ body {
   width: 16rem;
   height: 22rem;
   box-shadow: 0px 4px 4px #00000033;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 /* section = main section - detination page */
-
 .destination {
   background-size: cover;
   height: 40rem;

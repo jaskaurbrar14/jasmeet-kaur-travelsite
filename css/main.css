@@ -69,6 +69,7 @@ Highlight color: #DB7A4E;
   background-size: cover;
   position: relative;
   color: #fff;
+  border: 1px solid #00000033;
 }
 
 .card__iceland {
@@ -76,12 +77,14 @@ Highlight color: #DB7A4E;
   background-size: cover;
   position: relative;
   color: #fff;
+  border: 1px solid #00000033;
 }
 .card__greece {
   background-image: url(../Assets/Images/greece.jpg);
   background-size: cover;
   position: relative;
   color: #fff;
+  border: 1px solid #00000033;
 }
 .card__link {
   width: 100%;
