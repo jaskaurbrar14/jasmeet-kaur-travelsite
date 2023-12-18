@@ -29,7 +29,7 @@ Highlight color: #DB7A4E;
   padding: 3.2rem 0;
   text-align: left;
 }
-.hero__heading {
+.hero-heading {
   font-size: 2.4rem;
   font-weight: 700;
   /* letter-spacing: 1.1px; */
@@ -59,26 +59,29 @@ Highlight color: #DB7A4E;
   padding-bottom: 5.5rem;
 }
 .card__heading {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   position: relative;
-  top: 22rem;
-  left: 10.5rem;
+  top: 19.5rem;
+  left: 9.5rem;
 }
 .card__hawaii {
   background-image: url(../Assets/Images/hawaii.jpg);
   background-size: cover;
   position: relative;
+  color: #fff;
 }
 
 .card__iceland {
   background-image: url(../Assets/Images/iceland.jpg);
   background-size: cover;
   position: relative;
+  color: #fff;
 }
 .card__greece {
   background-image: url(../Assets/Images/greece.jpg);
   background-size: cover;
   position: relative;
+  color: #fff;
 }
 .card__link {
   width: 100%;
